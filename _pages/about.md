@@ -9,8 +9,8 @@ I work as a data scientist for Pratt & Whitney, a jet engine manufacturer owned 
 
 My academic credential highlights are:
 * MS in Quantitative Economics from University of Connecticut
-* First 2-years course work of an economics PhD
 * Economic research in partnership with Yale University, University of Connecticut, George Mason University, Boise State University, and Idaho Voices for Children
+* First 2-years course work of an economics PhD
 
 All of my work is around a quantitative and computational methods applied to real-world problems.
 
