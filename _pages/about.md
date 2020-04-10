@@ -17,8 +17,8 @@ All of my work is around a quantitative and computational methods applied to rea
 On a more personal note, I am a father, husband, and a guy who loves to smoke brisket.
 
 Here is my resume:
-<object data="https://quantchris.com/200405ChrisDaigleResumePDF.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://quantchris.com/200405ChrisDaigleResumePDF.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://quantchris.com/200405ChrisDaigleResumePDF.pdf">Download PDF</a>.</p>
+<object data="/assets/docs/200405.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/docs/200405.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200405.pdf">Download PDF</a>.</p>
     </embed>
 </object>
