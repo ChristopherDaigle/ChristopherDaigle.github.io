@@ -5,16 +5,16 @@ title: "About"
 
 Hi, I'm Christopher Daigle.
 
-I work as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en), a jet engine manufacturer owned by Raytheon Technologies, in Aftermarket Supply Chain for Commercial Engines. A lot of my work is focused on software development with Python, but I am evolving my group to employ more advanced approaches with analytics and machine learning.
-
-My academic credential highlights are:
-* MS in Quantitative Economics from University of Connecticut
-* Economic research in partnership with Yale University, University of Connecticut, George Mason University, Boise State University, and Idaho Voices for Children
-* First 2-years course work of an economics PhD
+I work as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en), a jet engine manufacturer owned by [Raytheon Technologies](https://www.rtx.com), in Aftermarket Supply Chain for Commercial Engines. A lot of my work is focused on software development with [Python](https://www.python.org), but I am evolving my group to employ more advanced approaches with analytics and machine learning.
 
 All of my work is around a quantitative and computational methods applied to real-world problems.
 
 On a more personal note, I am a father, husband, and a guy who loves to smoke brisket.
+
+My academic credential highlights are:
+* [MS in Quantitative Economics](https://msqe.econ.uconn.edu) from [University of Connecticut](https://uconn.edu)
+* Economic research in partnership with [Yale University](https://www.yale.edu), [University of Connecticut](https://uconn.edu), [George Mason University](https://www2.gmu.edu), [Boise State University](https://www.boisestate.edu), and [Idaho Voices for Children](https://www.idahovoices.org)
+* First 2-years course work of an economics PhD at [University of Connecticut](https://uconn.edu)
 
 Here is my resume:
 <object data="/assets/docs/200405.pdf" type="application/pdf" width="700px" height="700px">
