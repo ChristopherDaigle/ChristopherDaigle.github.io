@@ -5,7 +5,7 @@ title: "About"
 
 Hi, I'm Christopher Daigle.
 
-I work as a data scientist for Pratt & Whitney, a jet engine manufacturer owned by Raytheon Technologies, in Aftermarket Supply Chain for Commercial Engines. A lot of my work is focused on software development with Python, but I am evolving my group to employ more advanced approaches with analytics and machine learning.
+I work as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en), a jet engine manufacturer owned by Raytheon Technologies, in Aftermarket Supply Chain for Commercial Engines. A lot of my work is focused on software development with Python, but I am evolving my group to employ more advanced approaches with analytics and machine learning.
 
 My academic credential highlights are:
 * MS in Quantitative Economics from University of Connecticut
