@@ -10,5 +10,6 @@ tags:
   - Python
 ---
 In this project, I examine census data and predict whether a person's income is above $50,000 annually.
-* [Full writeup with code](https://quantchris.com/assets/ds_projects/WIP_Class_with_Code.html)
+* [Full writeup with code](https://quantchris.com/assets/ds_projects/WIP_Class_Code.html)
+* [Full writeup without code](https://quantchris.com/assets/ds_projects/WIP_Class_No_Code.html)
 * [Slides without code](https://quantchris.com/assets/ds_projects/WIP_Class_No_Code_Slides.html)
