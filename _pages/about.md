@@ -15,8 +15,8 @@ My academic highlights are:
 * First 2-years course work of an economics PhD at [University of Connecticut](https://uconn.edu)
 
 Here is my resume:
-<object data="/assets/docs/200405.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/assets/docs/200405.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200405.pdf">Download PDF</a>.</p>
+<object data="/assets/docs/200417.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/docs/200417.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200417.pdf">Download PDF</a>.</p>
     </embed>
 </object>
