@@ -10,14 +10,14 @@ tags:
   - Python
 ---
 # Summary:
-In this project, I help CharityML maximize the likelihood of receiving donations by constructing a model that accurately predicts whether an individual makes more than 50k/yr.
+In this project, I help CharityML maximize the likelihood of receiving donations through constructing a model that predicts if a person receives income exceeding 50k/yr; a level known to indicate being a good candidate for donations.
 
 * [Full writeup with code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_Code.html)
 * [Full writeup without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_No_Code.html)
 * [Slides without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_Slides.slides.html)
----
 
-## Project Organization
+---
+## Contents
 1. Exploratory Data Analysis
 2. Data Engineering
 3. Modeling and Machine Learning
@@ -27,7 +27,7 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 * F-0.2 Score: 76.5% (high precision model)
 
 ## Technologies
-I use `Python` inside of a `Jupyter Notebook` and publish my work with `Reveal.js`.
+`Python` inside of a `Jupyter Notebook` and publish with `Reveal.js`
 Employed libraries:
 * [Pandas](https://pandas.pydata.org/docs/#)`==1.0.1`
 * [Numpy](https://numpy.org/doc/1.18/)`==1.18.1`
