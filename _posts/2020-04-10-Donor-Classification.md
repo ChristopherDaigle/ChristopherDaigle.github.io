@@ -16,7 +16,6 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 * [Full writeup without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_No_Code.html)
 * [Slides without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_Slides.html)
 
-___
 ## Project Organization
 1. Exploratory Data Analysis
 2. Data Engineering
