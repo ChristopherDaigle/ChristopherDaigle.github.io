@@ -1,12 +1,10 @@
 ---
 title: "Supervised Learning: Donor Classification"
-last_modified_at: 2020-04-23T17:56:02-04:00
+last_modified_at: 2020-04-25T23:12:02-04:00
 categories:
   - Project
 tags:
-  - Data Science
   - Machine Learning
-  - Programming
   - Python
 ---
 # Summary:
