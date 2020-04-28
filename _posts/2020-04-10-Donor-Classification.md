@@ -1,6 +1,6 @@
 ---
 title: "Supervised Learning: Donor Classification"
-last_modified_at: 2020-04-25T23:12:02-04:00
+last_modified_at: 2020-04-28T00:15:02-04:00
 categories:
   - Project
 tags:
@@ -19,9 +19,14 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 2. Data Engineering
 3. Modeling and Machine Learning
 
-## Performance
-* Accuracy: 86.5%
-* F-0.2 Score: 76.5% (high precision model)
+## Models
+* AdaBoost
+* Random Forest
+* Logistic Regression
+
+### Performance
+* Accuracy: 87%
+* F-0.5 Score: 75.68% (high precision model)
 
 ## Technologies
 `Python` inside of a `Jupyter Notebook` and publish with `Reveal.js`
