@@ -1,6 +1,6 @@
 ---
 title: "Supervised Learning: Donor Classification"
-last_modified_at: 2020-04-28T00:15:02-04:00
+last_modified_at: 2020-04-30T16:30:02-04:00
 categories:
   - Project
 tags:
@@ -10,9 +10,9 @@ tags:
 # Summary:
 In this project, I help CharityML maximize the likelihood of receiving donations through constructing a model that predicts if a person receives income exceeding 50k/yr; a level known to indicate being a good candidate for donations.
 
-* [Full writeup with code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_Code.html)
-* [Full writeup without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_No_Code.html)
-* [Slides without code](https://quantchris.com/assets/ml/sup_charity/WIP_Class_Slides.html)
+* [Full writeup with code](https://quantchris.com/assets/ml/sup_charity/class_code.html)
+* [Full writeup without code](https://quantchris.com/assets/ml/sup_charity/class_no_code.html)
+* [Slides without code](https://quantchris.com/assets/ml/sup_charity/class_slides.html)
 
 ## Project Organization
 1. Exploratory Data Analysis
@@ -29,7 +29,7 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 * F-0.5 Score: 75.68% (high precision model)
 
 ## Technologies
-`Python` inside of a `Jupyter Notebook` and publish with `Reveal.js`
+`Python` inside of a `Jupyter Notebook` and published with `Reveal.js`
 Employed libraries:
 * [Pandas](https://pandas.pydata.org/docs/#)`==1.0.1`
 * [Numpy](https://numpy.org/doc/1.18/)`==1.18.1`
