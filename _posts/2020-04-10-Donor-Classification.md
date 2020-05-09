@@ -1,6 +1,6 @@
 ---
 title: "Supervised Learning: Donor Classification"
-last_modified_at: 2020-05-02T23:19:02-04:00
+last_modified_at: 2020-05-09T15:50:02-04:00
 categories:
   - Project
 tags:
@@ -20,13 +20,17 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 3. Modeling and Machine Learning
 
 ## Models
-* AdaBoost
-* Random Forest
+* Naive Bayes
 * Logistic Regression
+* Random Forest
+* AdaBoost
+* **Gradient Boost**
+* Extreme Gradient Boost
+* K-Nearest Neighbors
 
 ### Performance
-* Accuracy: 87%
-* F-0.5 Score: 75.68% (high precision model)
+* Accuracy: 87.26%
+* F-0.5 Score: 76.05% (high precision model)
 
 ## Technologies
 `Python` inside of a `Jupyter Notebook` and published with `Reveal.js`
@@ -39,3 +43,6 @@ Employed libraries:
 * [Plotly](https://plotly.com/python/)`==4.6.0`
 * [Seaborn](https://seaborn.pydata.org)`==0.10.0`
 * [Matplotlib](https://matplotlib.org/3.2.1/contents.html)`==3.1.3`
+* [Custom Module: visualization.py](https://quantchris.com/assets/ml/sup_charity/visualization.py)
+* [Custom Module: modeling.py](https://quantchris.com/assets/ml/sup_charity/modeling.py)
+* [Custom Module: visuals.py](https://quantchris.com/assets/ml/sup_charity/visuals.py)
