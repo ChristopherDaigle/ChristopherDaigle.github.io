@@ -1,6 +1,6 @@
 ---
 title: "Supervised Learning: Donor Classification"
-last_modified_at: 2020-05-09T15:50:02-04:00
+last_modified_at: 2020-05-13T21:50:02-04:00
 categories:
   - Project
 tags:
@@ -17,7 +17,9 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 ## Project Organization
 1. Exploratory Data Analysis
 2. Data Engineering
-3. Modeling and Machine Learning
+3. Metrics
+4. Machine Learning Models
+5. Summary
 
 ## Models
 * Naive Bayes
@@ -33,7 +35,7 @@ In this project, I help CharityML maximize the likelihood of receiving donations
 * F-0.5 Score: 76.05% (high precision model)
 
 ## Technologies
-`Python` inside of a `Jupyter Notebook` and published with `Reveal.js`
+`Python` inside of an `IPython Notebook` and published with `Reveal.js`<br>
 Employed libraries:
 * [Pandas](https://pandas.pydata.org/docs/#)`==1.0.1`
 * [Numpy](https://numpy.org/doc/1.18/)`==1.18.1`
@@ -43,6 +45,7 @@ Employed libraries:
 * [Plotly](https://plotly.com/python/)`==4.6.0`
 * [Seaborn](https://seaborn.pydata.org)`==0.10.0`
 * [Matplotlib](https://matplotlib.org/3.2.1/contents.html)`==3.1.3`
+* [dython](http://shakedzy.xyz/dython/)`==0.5.0.post2`
 * [Custom Module: visualization.py](https://quantchris.com/assets/ml/sup_charity/visualization.py)
 * [Custom Module: modeling.py](https://quantchris.com/assets/ml/sup_charity/modeling.py)
 * [Custom Module: visuals.py](https://quantchris.com/assets/ml/sup_charity/visuals.py)
