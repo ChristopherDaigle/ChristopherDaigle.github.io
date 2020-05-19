@@ -16,6 +16,7 @@ In this project, I identify segments of the population that form the core custom
 ## Models & Methods
 * Principal Component Analysis (PCA)
 * K-Means
+
 ---
 
 ## Technologies
