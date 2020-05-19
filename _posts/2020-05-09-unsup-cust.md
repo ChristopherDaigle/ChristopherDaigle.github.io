@@ -10,12 +10,13 @@ tags:
 # Summary:
 In this project, I identify segments of the population that form the core customer base for a mail-order sales company in Germany, [Bertelsmann Arvato Analytics](https://www.bertelsmann.com/).
 
+* [Unpolished Draft](https://github.com/ChristopherDaigle/Udacity/blob/master/IntroductionToMachineLearningProgram/Part4_UnsupervisedLearning/Project/Identify_Customer_Segments.ipynb)
+---
+
 ## Models & Methods
 * Principal Component Analysis (PCA)
 * K-Means
-
-### Performance
-
+---
 
 ## Technologies
 `Python` inside of a `Jupyter Notebook` and published with `Reveal.js`
