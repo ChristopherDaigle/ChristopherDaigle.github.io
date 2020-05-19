@@ -17,6 +17,6 @@ My academic highlights are:
 Here is my resume:
 <object data="/assets/docs/200518.pdf" type="application/pdf" width="400px" height="550px">
     <embed src="/assets/docs/200518.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200430.pdf">Download PDF</a>.</p>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200518.pdf">Download PDF</a>.</p>
     </embed>
 </object>
