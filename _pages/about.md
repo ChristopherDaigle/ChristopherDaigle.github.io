@@ -5,7 +5,13 @@ title: "About"
 
 Hi, I'm Christopher Daigle.
 
-I work as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en), a jet engine manufacturer owned by [Raytheon Technologies](https://www.rtx.com).
+Right now, I work as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en), a jet engine manufacturer owned by [Raytheon Technologies](https://www.rtx.com).
+
+Previously, I:
+> * Worked as a data scientist at a start-up where I was a partner
+> * Taught students at universities (University of Connecticut, Boise State University, Post University)
+> * Conducted economic research and consulted for dissertations
+> * Flew planes for the US Army
 
 On the personal side: I am a father, husband, and a guy who loves to smoke brisket.
 
