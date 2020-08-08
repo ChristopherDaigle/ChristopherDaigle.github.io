@@ -21,7 +21,7 @@ What's a scientist?
 - A person who applies the scientific method with data to solves some problem
 
 *The Scientific Method*
-<img src=https://quantchris.com/assets/images/sci_meth.png>
+<img src='https://quantchris.com/assets/images/sci_meth.png'>
 
 ## <a id='what_skills'>2: What skills are expected of a data scientist</a>
 
