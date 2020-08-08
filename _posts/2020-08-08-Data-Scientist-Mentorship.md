@@ -15,13 +15,15 @@ I will describe:
 3. [How to acquire the skills expected](#acquire)
 4. [How to showcase those skills](#demonstrate)
 
-## <a id='what_ds'>1: What is a data scientist</a>
+## <a id='what_ds'><details><summary>1: What is a data scientist</summary></a>
 
 What's a scientist?
-- A person who applies the scientific method with data to solves some problem
+- A person who applies the scientific method to evaluate problem
 
 *The Scientific Method*
+
 <img src='https://quantchris.com/assets/images/sci_meth.png'>
+</details>
 
 ## <a id='what_skills'>2: What skills are expected of a data scientist</a>
 
