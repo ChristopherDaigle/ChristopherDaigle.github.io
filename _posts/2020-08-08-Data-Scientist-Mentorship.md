@@ -15,9 +15,8 @@ I will describe:
 3. [How to acquire the skills expected](#acquire)
 4. [How to showcase those skills](#demonstrate)
 
-## <a id='what_ds'><details><summary>1: What is a data scientist</summary></a>
-
-What's a scientist?
+## <a id='what_ds'>1: What is a data scientist</a>
+<details><summary>What's a scientist?</summary>
 - A person who applies the scientific method to evaluate problem
 
 *The Scientific Method*
@@ -25,8 +24,16 @@ What's a scientist?
 <img src='https://quantchris.com/assets/images/sci_meth.png'>
 </details>
 
+<details>
+<summary>What's a data scientist</summary>
+
+There's no legitimate answer, but if we take the idea that this person is a scientist and they focus on data, then we can conclude they apply the scientific method to problems that are data centric.
+
+</details>
+
 ## <a id='what_skills'>2: What skills are expected of a data scientist</a>
 
 ## <a id='acquire'>3: How to acquire the skills expected</a>
+Here's the list:
 
 ## <a id='demonstrate'>4: How to showcase those skills</a>
