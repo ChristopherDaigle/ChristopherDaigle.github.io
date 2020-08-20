@@ -5,7 +5,7 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-Right now, I work as a Senior Data Scientist for [The Hartford](https://www.thehartford.com) in Claims, focused on Workers Compensation
+I work as a Senior Data Scientist for [The Hartford](https://www.thehartford.com) in Claims, focused on Workers Compensation.
 
 Previously, I:
 > * Worked as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en)
@@ -22,8 +22,8 @@ My academic highlights are:
 > * First 2-years course work of an economics PhD at [University of Connecticut](https://uconn.edu)
 
 Here is my resume:
-<object data="/assets/docs/200728.pdf" type="application/pdf" width="400px" height="550px">
-    <embed src="/assets/docs/200728.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200728.pdf">Download PDF</a>.</p>
+<object data="/assets/docs/200819.pdf" type="application/pdf" width="400px" height="550px">
+    <embed src="/assets/docs/200819.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/200819.pdf">Download PDF</a>.</p>
     </embed>
 </object>
