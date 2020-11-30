@@ -1,6 +1,6 @@
 ---
 title: "Data Scientist: A Checklist to Becoming One"
-last_modified_at: 2020-11-29T20:16:02-04:00
+last_modified_at: 2020-11-29T21:00:02-04:00
 categories:
   - Blog
 tags:
@@ -56,7 +56,9 @@ Different positions have different expectations around the level of programming 
 You should be able to: use functional programming, visualize data, query a database, use certain packages (e.g. Pandas, NumPy, SciKit-Learn), .
 
 Being strong in programming and knowing how to use data science packages can compensate for a gap in math knowledge early on in your data science journey. Moving to production as fast as possible is valuable. If you're good at programming, you may not be solving problems the right way in terms of statistical theory, but you'll bring a product to the table fast that just need be tweaked. Data scientists that agonize over only the statistical methods make things no one can use that take forever; they bring nothing to the table.
+
 ___
+
 **A caution (and rant):**
 
 It's dangerous to maintain a math knowledge gap and be strong in software. You'll make a lot of products that are probably not good.
@@ -105,18 +107,41 @@ The best way I know to fill this gap is with a college education. If taking thes
 > For most of data science, you'll be minimizing an error of sorts (there are options). Focus on that.
 
 <h3>Technology:</h3>
-* Software Engineering:
 
-> - [Udemy: Learn Python Programming Masterclass](https://www.udemy.com/share/101WaiBUUec1lURHg=/) (*Frequently on sale*)
+* Software Engineering:
+> [Udemy: Learn Python Programming Masterclass](https://www.udemy.com/share/101WaiBUUec1lURHg=/) (*Frequently on sale*)
 
 * Database Language:
+> [Udacity: SQL for Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198) (*Free*)
 
-> - [Udacity: SQL for Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198) (*Free*)
+<h3>Machine Learning:</h3>
 
-* Machine Learning:
+* Foundations:<br>
+> [Coursera: Machine Learning](https://www.coursera.org/learn/machine-learning)<br>
+>>> Free to enroll, costs for assignment review and certificate<br>
+>>
+>> [Book: "ISLR" An Introduction to Statistical Learning with Application in R](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+>>> Ignore the fact that it's written for R, feel free to learn R by using this book, but more importantly, take away the fundamental algorithms and explanations. **Everything in here can be done with Python**<br>
+>>
+>> [Book: "ESL" Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
+>>> More advanced treatment than ISLR, programming language independent
+>>
 
-> Foundations:
->> - [Coursera: Machine Learning](https://www.coursera.org/learn/machine-learning) (*Free to enroll, cost for assignment review and certificate*)
+* Practical Skills:<br>
+>> [Udemy: Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/share/101WaUBUUec1lURHg=/)<br>
+>>> Frequently on sale. This is a survey of lots of applications of ML, data wrangling, visualizations, etc. Use this to get acquainted with the majority of the base technology skills you'll need for data and ML work with Python<br>
+>>
+>> [Udacity: Intro to Machine Learning with PyTorch](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229)<br>
+>>> Not cheap, valuable to understand supervised, unsupervised, and deep learning from an applied perspective, especially if you are math oriented<br>
+>>
+
+* Specific Skills:<br>
+> I'm really into Natural Language Processing (NLP), but there are other specific skills you can focus on. Computer Vision (CV) is also popular. There is a nice intersection of methods of NLP and CV as they relate to latent space representations of factors; [I'm currently working with this](https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/)
+>> [Udemy: Natural Language Processing](https://www.udemy.com/share/101WNABUUec1lURHg=/)
+>>> Frequently on sale. Very good deep dive into concepts of NLP and how to apply them with Python
+>>
+>> [Stanford: Lecture Collection | Natural Language Processing with Deep Learning](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+>>> YouTube videos of lectures on NLP from Stanford's course on NLP in Winter 2017
 
 
 
