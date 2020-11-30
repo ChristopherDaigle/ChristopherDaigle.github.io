@@ -9,16 +9,17 @@ tags:
 # Summary:
 I'm writing this because I've been asked a lot about what a person should know to become a data scientist. I give the same advice every time. I want to pen this down so I can share it with you and it can be easily referenced (and I can stop repeating myself).
 
-
 I will describe:
 1. [What is a data scientist](#what_ds)
 2. [What skills are expected of a data scientist](#what_skills)
 3. [How to acquire the skills expected](#acquire)
 4. [How to showcase those skills](#demonstrate)
+
 ___
 
 #### A note before reading forward:
 There is nothing ignoble about pursuing a path purely because it pays well. We all gotta eat. Still, I caution entering data science if income is the main motivation. Data science is a field in which a person will be obsolete if they do not continue to invest in their craft. You will have to learn a lot and keep doing so. Some people think that's hell.
+
 ___
 
 ## <a id='what_ds'>1: What is a data scientist</a>
@@ -26,7 +27,7 @@ ___
 
 A person who applies the scientific method to evaluate problem
 <center><b>The Scientific Method</b></center>
-<center><img src='../assets/images/sci_meth.png'></center>
+<center><img src='https://github.com/ChristopherDaigle/ChristopherDaigle.github.io/blob/master/assets/images/sci_meth.png?raw=true'></center>
 
 
 *What's a data scientist*
