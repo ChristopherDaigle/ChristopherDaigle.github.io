@@ -1,6 +1,6 @@
 ---
 title: "Data Scientist: A Checklist to Becoming One"
-last_modified_at: 2020-08-08T22:51:02-04:00
+last_modified_at: 2020-11-29T20:16:02-04:00
 categories:
   - Blog
 tags:
@@ -8,6 +8,7 @@ tags:
 ---
 # Summary:
 I'm writing this because I've been asked a lot about what a person should know to become a data scientist. I give the same advice every time. I want to pen this down so I can share it with you and it can be easily referenced (and I can stop repeating myself).
+
 
 I will describe:
 1. [What is a data scientist](#what_ds)
@@ -21,15 +22,14 @@ There is nothing ignoble about pursuing a path purely because it pays well. We a
 ___
 
 ## <a id='what_ds'>1: What is a data scientist</a>
-<details><summary>What's a scientist?</summary>
+*What's a scientist?*
 
 A person who applies the scientific method to evaluate problem
-<center>*The Scientific Method*</center>
-<img src='../assets/images/sci_meth.png'>
-</details>
+<center><b>The Scientific Method</b></center>
+<center><img src='../assets/images/sci_meth.png'></center>
 
-<details>
-<summary>What's a data scientist</summary>
+
+*What's a data scientist*
 
 **There's no legitimate answer.**
 
@@ -38,18 +38,15 @@ If we take the idea that this person is a scientist and they focus on data, then
 
 ## <a id='what_skills'>2: What skills are expected of a data scientist</a>
 
-<details>
-<summary>Math:</summary>
+<h3>Math:</h3>
 A data scientist is expected to use quantitative methods to examine problems.
 
 Most of the problems a data scientist works on deal with predicting an outcome. For example: is a customer likely to buy a product; is a message probably spam; is a transaction fraudulent; when will a jet engine component fail. We can't say with certainty if these events will occur, but we may be able to say with some level of confidence that an event is likely.
 
 Knowing maths that deal with that concept, uncertainty, is expected.
 
-</details>
 
-<details>
-<summary>Programming:</summary>
+<h3>Programming:</h3>
 
 A data scientist is expected to move from theory to application with technology.
 
@@ -75,10 +72,7 @@ Most of what you'll need to do on the job will not require inventing a novel app
 
 **LEARN TO PROGRAM!**
 
-</details>
-
-<details>
-<summary>Modeling & Business:</summary>
+<h3>Modeling & Business:</h3>
 
 A data scientist is expected to observe a business problem and evaluate a scientific approach to modeling a solution to it.
 
@@ -91,10 +85,8 @@ Once you feel comfortable, bring those approaches into the office or wherever yo
 To get good at this, do it a lot. Put your head in the space to think of the problem in such a way that you can apply technology to data with your theory as often as possible.
 
 
-</details>
-
 ## <a id='acquire'>3: Suggested sources to build the expected skills</a>
-<details><summary>Math:</summary>
+<h3>Math:</h3>
 
 The best way I know to fill this gap is with a college education. If taking these classes in college is not an option, then here's some suggestions. Mileage may vary...
 
@@ -111,10 +103,7 @@ The best way I know to fill this gap is with a college education. If taking thes
 >
 > For most of data science, you'll be minimizing an error of sorts (there are options). Focus on that.
 
-</details>
-
-<details>
-<summary>Technology</summary>
+<h3>Technology:</h3>
 * Software Engineering:
 
 > - [Udemy: Learn Python Programming Masterclass](https://www.udemy.com/share/101WaiBUUec1lURHg=/) (*Frequently on sale*)
