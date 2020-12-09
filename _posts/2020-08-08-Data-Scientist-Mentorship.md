@@ -1,6 +1,6 @@
 ---
 title: "Data Scientist: A Checklist to Becoming One"
-last_modified_at: 2020-11-29T21:00:02-04:00
+last_modified_at: 2020-12-08T21:08:02-04:00
 categories:
   - Blog
 tags:
@@ -35,7 +35,6 @@ A person who applies the scientific method to evaluate problem
 **There's no legitimate answer.**
 
 If we take the idea that this person is a scientist and they focus on data, then we can conclude they apply the scientific method to problems that are data centric.
-</details>
 
 ## <a id='what_skills'>2: What skills are expected of a data scientist</a>
 
