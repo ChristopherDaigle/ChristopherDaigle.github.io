@@ -5,9 +5,10 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-I work as a Senior Data Scientist for [The Hartford](https://www.thehartford.com) in Claims, focused on Workers Compensation.
+I work as a Senior Data Scientist and manager for [The Hartford's](https://www.thehartford.com) Artificial Intelligence (AI) Factory, focused on Natural Language Processing (NLP).
 
 Previously, I:
+> * Worked as a senior data scientist for [The Hartford](https://www.thehartford.com) in Claims Data Science focused on Workers Compensation
 > * Worked as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en)
 > * Worked as a data scientist at [Boise Analytics](https://medium.com/cam-crow/bye-bye-boise-analytics-7bdc8aad36f9) where I was a partner
 > * Taught students at universities (University of Connecticut, Boise State University, Post University)
