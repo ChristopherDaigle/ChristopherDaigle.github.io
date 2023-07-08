@@ -5,7 +5,7 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-I work as a Director of Data Science for [The Hartford's](https://www.thehartford.com) Artificial Intelligence (AI) Factory, focused on Natural Language Processing (NLP).
+I work as a Director of Data Science for [The Hartford's](https://www.thehartford.com) Artificial Intelligence (AI) Factory, focused on Generative AI and Natural Language Processing (NLP).
 
 Previously, I:
 > * Worked as a senior data scientist for [The Hartford](https://www.thehartford.com) in Claims Data Science focused on Workers Compensation
@@ -23,8 +23,8 @@ My academic highlights are:
 > * First 2-years course work of an economics PhD at [University of Connecticut](https://uconn.edu)
 
 Here is my resume:
-<object data="/assets/docs/230225.pdf" type="application/pdf" width="400px" height="550px">
-    <embed src="/assets/docs/230225.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/210830.pdf">Download PDF</a>.</p>
+<object data="/assets/docs/230708.pdf" type="application/pdf" width="400px" height="550px">
+    <embed src="/assets/docs/230708.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/230708.pdf">Download PDF</a>.</p>
     </embed>
 </object>
