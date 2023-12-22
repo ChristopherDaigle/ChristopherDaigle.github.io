@@ -5,9 +5,10 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-I work as a Director of Data Science for [The Hartford's](https://www.thehartford.com) Artificial Intelligence (AI) Factory, focused on Generative AI and Natural Language Processing (NLP).
+I work as the Lead of the Generative AI Factory for [The Hartford's](https://www.thehartford.com) Commercial Lines Data Science and Analytics Organization.
 
 Previously, I:
+> * Worked as a director of data science for [The Hartford](https://www.thehartford.com) in the Artificial Intelligence Factory leading scientists and engineers while specializing in Natural Language Processing (NLP) and being the Technical Lead of Generative AI
 > * Worked as a senior data scientist for [The Hartford](https://www.thehartford.com) in Claims Data Science focused on Workers Compensation
 > * Worked as a data scientist for [Pratt & Whitney](https://prattwhitney.com/en)
 > * Worked as a data scientist at [Boise Analytics](https://medium.com/cam-crow/bye-bye-boise-analytics-7bdc8aad36f9) where I was a partner
@@ -23,8 +24,8 @@ My academic highlights are:
 > * First 2-years course work of an economics PhD at [University of Connecticut](https://uconn.edu)
 
 Here is my resume:
-<object data="/assets/docs/230708.pdf" type="application/pdf" width="400px" height="550px">
-    <embed src="/assets/docs/230708.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/230708.pdf">Download PDF</a>.</p>
+<object data="/assets/docs/231221.pdf" type="application/pdf" width="400px" height="550px">
+    <embed src="/assets/docs/231221.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/231221.pdf">Download PDF</a>.</p>
     </embed>
 </object>
