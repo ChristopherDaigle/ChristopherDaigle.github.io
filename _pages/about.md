@@ -5,7 +5,7 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-I work as the Lead of the Generative AI Factory for [The Hartford's](https://www.thehartford.com) Commercial Lines Data Science and Analytics Organization.
+I work as the Lead of the Generative Artificial Intelligence Factory for [The Hartford's](https://www.thehartford.com) Commercial Lines Data Science and Analytics Organization.
 
 Previously, I:
 > * Worked as a director of data science for [The Hartford](https://www.thehartford.com) in the Artificial Intelligence Factory leading scientists and engineers while specializing in Natural Language Processing (NLP) and being the Technical Lead of Generative AI
