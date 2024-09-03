@@ -5,7 +5,7 @@ title: "About"
 
 Hi, I'm Christopher Daigle!
 
-I work as a Director of AI and Automation at Arch Capital Service[https://www.archgroup.com] focused on generative artificial intelligence applications for insurance, insurance professional support, and insurance adjacent applications.
+I work as a Director of AI and Automation at [Arch Capital Services](https://www.archgroup.com) focused on generative artificial intelligence applications for insurance, insurance professional support, and insurance adjacent applications.
 
 Some high level professional history:
 > *  Lead of the Generative Artificial Intelligence Factory for [The Hartford's](https://www.thehartford.com) Commercial Lines Data Science and Analytics Organization.
