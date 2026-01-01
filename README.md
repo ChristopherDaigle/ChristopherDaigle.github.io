@@ -1,27 +1,35 @@
-# Minimal Mistakes remote theme starter
+# QuantChris - Data Science & AI Portfolio
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Welcome to my personal website and blog! I'm Christopher Daigle, a Director of AI and Automation Engineering with expertise in data science, machine learning, and artificial intelligence applications.
 
-Contains basic configuration to get you a site with:
+## About This Site
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+This site showcases my work in data science, including:
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- **Blog Posts**: Technical articles on data science, machine learning, and career advice
+- **Projects**: Machine learning implementations and case studies
+- **Professional Experience**: Background in AI engineering and data science leadership
+- **Resume**: Current professional experience and qualifications
 
----
+## Technology Stack
 
-## Troubleshooting
+- **Framework**: Jekyll with GitHub Pages
+- **Theme**: [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) - a responsive Jekyll theme
+- **Content**: Markdown-based posts and pages
+- **Features**: Search, categories, tags, and responsive design
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+## Site Structure
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- `_posts/` - Blog posts and articles
+- `_pages/` - Static pages (About, Archives, etc.)
+- `assets/` - Images, documents, and project files
+- `_config.yml` - Site configuration
+- `_data/navigation.yml` - Navigation menu configuration
+
+## Contributing
+
+This is my personal site, but if you find any issues or have suggestions, feel free to open an issue or pull request.
+
+## License
+
+Content on this site is © Christopher Daigle unless otherwise noted.
