@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+excerpt: "Learn about Christopher Daigle's background in AI engineering, data science leadership, and machine learning. Director of AI and Automation Engineering with experience at major insurance companies."
 ---
 
 Hi, I'm Christopher Daigle!

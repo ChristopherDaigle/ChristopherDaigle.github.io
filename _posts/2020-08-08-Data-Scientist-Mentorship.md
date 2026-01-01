@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - Mentorship
+excerpt: "A comprehensive guide to becoming a data scientist, covering essential skills in math, programming, and business application with practical learning resources and career advice."
 ---
 # Summary:
 I'm writing this because I've been asked a lot about what a person should know to become a data scientist. I give the same advice every time. I want to pen this down so I can share it with you and it can be easily referenced (and I can stop repeating myself).

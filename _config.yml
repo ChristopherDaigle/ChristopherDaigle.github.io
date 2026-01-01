@@ -17,7 +17,6 @@ title: QuantChris
 email: pcjdaigle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Website dedicated to notable work I have done
-# twitter_username: username
 github_username: christopherdaigle
 minimal_mistakes_skin: dirt # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
@@ -69,6 +68,21 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/christopherdaigle/"
+    - label: "PyPI"
+      icon: "fab fa-fw fa-python"
+      url: "https://pypi.org/user/christopherdaigle/"
+
+# SEO and Social Sharing
+social:
+  type: Person
+  name: Christopher Daigle
+  links:
+    - https://www.linkedin.com/in/christopherdaigle/
+    - https://github.com/christopherdaigle/
+    - https://pypi.org/user/christopherdaigle/
+
+# Open Graph
+og_image: /assets/images/bio-photo.png
 
 footer:
   links:
@@ -78,9 +92,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/christopherdaigle/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/daigle_ds"
+    - label: "PyPI"
+      icon: "fab fa-fw fa-python"
+      url: "https://pypi.org/user/christopherdaigle/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"

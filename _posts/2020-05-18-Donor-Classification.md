@@ -6,6 +6,7 @@ categories:
 tags:
   - Machine Learning
   - Python
+excerpt: "A complete machine learning project implementing donor classification using multiple algorithms including Gradient Boosting, with detailed EDA, feature engineering, and model comparison."
 ---
 # Summary:
 In this project, I help CharityML maximize the likelihood of receiving donations through constructing a model that predicts if a person receives income exceeding 50k/yr; a level known to indicate being a good candidate for donations.
