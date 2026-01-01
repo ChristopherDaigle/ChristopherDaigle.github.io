@@ -27,7 +27,7 @@ ___
 
 A person who applies the scientific method to evaluate problem
 <center><b>The Scientific Method</b></center>
-<center><img src='https://github.com/ChristopherDaigle/ChristopherDaigle.github.io/blob/master/assets/images/sci_meth.png?raw=true'></center>
+<center><img src='/assets/images/sci_meth.png'></center>
 
 
 *What's a data scientist*
