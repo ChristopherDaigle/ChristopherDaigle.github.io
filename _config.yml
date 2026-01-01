@@ -56,7 +56,7 @@ plugins:
 author:
   name   : "Christopher Daigle"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Chris is an AI strategy leader in P&C insurance, guiding business leaders on enterprise AI solutions and architecting the technical implementations. Passionate about developing standards that create sustainable, production-grade AI systems."
+  bio    : "Chris is an AI strategy leader in P&C insurance, guiding business leaders on enterprise AI solutions and architecting the technical implementations. He is passionate about developing standards that create sustainable, production-grade AI systems."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
