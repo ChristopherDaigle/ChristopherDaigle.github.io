@@ -1,12 +1,12 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Learn about Christopher Daigle's background in AI engineering, data science leadership, and machine learning. Director of AI and Automation Engineering with experience at major insurance companies."
+excerpt: "Learn about Christopher Daigle's background in AI engineering, data science leadership, and machine learning. Associate Vice President (AVP) of AI and Automation Engineering with experience at major insurance companies."
 ---
 
 Hi, I'm Christopher Daigle!
 
-I work as a Director of AI and Automation Engineering at [Arch Capital Services](https://www.archgroup.com) focused on generative artificial intelligence applications for insurance, insurance professional support, and insurance adjacent applications.
+I work as an Associate Vice President (AVP) of AI and Automation Engineering at [Arch Capital Services](https://www.archgroup.com) focused on generative artificial intelligence applications for insurance, insurance professional support, and insurance adjacent applications.
 
 Some high level professional history:
 > *  Lead of the Generative Artificial Intelligence Factory for [The Hartford's](https://www.thehartford.com) Commercial Lines Data Science and Analytics Organization.
