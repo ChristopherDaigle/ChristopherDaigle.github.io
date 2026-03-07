@@ -1,6 +1,6 @@
 # QuantChris - Data Science & AI Portfolio
 
-Welcome to my personal website and blog! I'm Christopher Daigle, a Director of AI and Automation Engineering with expertise in data science, machine learning, and artificial intelligence applications.
+Welcome to my personal website and blog! I'm Christopher Daigle, an Associate Vice President (AVP) of AI and Automation Engineering with expertise in data science, machine learning, and artificial intelligence applications.
 
 ## About This Site
 
@@ -8,7 +8,7 @@ This site showcases my work in data science, including:
 
 - **Blog Posts**: Technical articles on data science, machine learning, and career advice
 - **Projects**: Machine learning implementations and case studies
-- **Professional Experience**: Background in AI engineering and data science leadership
+- **Professional Experience**: Background in AI engineering and data science executive leadership
 - **Resume**: Current professional experience and qualifications
 
 ## Technology Stack
