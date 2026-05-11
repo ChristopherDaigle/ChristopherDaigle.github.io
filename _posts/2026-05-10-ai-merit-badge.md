@@ -9,7 +9,8 @@ tags:
   - Education
 ---
 
-Brief description of the sessions here...
+AI merit badge for Scouting America Merit Badge Counselor
 
-- [Counselor Session Guide (with prerequisites)](/assets/scouting/ai-badge.html)
-- [Fully Guided Session](/assets/scouting/ai-badge-guided.html)
+For presentation to scouts at the 2026 Merit Badge College
+
+- [Counselor Session Guide (with prerequisites)](assets/scouting/ai-merit-badge.html)
