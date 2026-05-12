@@ -10,7 +10,7 @@
 :root{
   --bg:#080e1c;--bg2:#0c1628;--bg3:#122030;--bg4:#192b3e;--bg5:#1e3348;
   --border:#1e3250;--border2:#28405c;
-  --text:#c4d6ea;--text2:#6685a0;--text3:#435a72;
+  --text:#c4d6ea;--text2:#7a9ab5;--text3:#7090a5;
   --teal:#1ab0ca;--teal-dim:rgba(26,176,202,.10);--teal-glow:rgba(26,176,202,.05);
   --green:#26b47c;--green-dim:rgba(38,180,124,.09);
   --amber:#c89a28;--amber-dim:rgba(200,154,40,.09);
@@ -31,7 +31,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15
 .sb-title{font-size:14px;font-weight:700;line-height:1.3;color:var(--text)}
 .sb-sub{font-size:11px;color:var(--text3);margin-top:3px}
 .sb-nav{padding:10px 0;flex:1}
-.nav-a{display:flex;align-items:center;gap:9px;padding:8px 16px 8px 18px;cursor:pointer;border-left:3px solid transparent;transition:all .18s;text-decoration:none;color:var(--text2);font-size:12px;font-weight:500}
+.nav-a{display:flex;align-items:center;gap:9px;padding:8px 16px 8px 18px;min-height:36px;cursor:pointer;border-left:3px solid transparent;transition:all .18s;text-decoration:none;color:var(--text2);font-size:12px;font-weight:500}
 .nav-a:hover{background:var(--bg3);color:var(--text);border-left-color:var(--border2)}
 .nav-a.active{background:var(--teal-glow);color:var(--teal);border-left-color:var(--teal)}
 .nav-num{font-family:var(--mono);font-size:9px;width:18px;height:18px;border-radius:4px;background:var(--bg3);display:flex;align-items:center;justify-content:center;color:var(--text3);flex-shrink:0;transition:all .18s}
@@ -522,6 +522,16 @@ a:hover{text-decoration:underline}
   .game-btns .btn{flex:1 1 calc(50% - 4px)}
 }
 
+
+/* ── Accessibility: visible focus indicator (WCAG 2.4.7 AA) ── */
+:focus-visible{
+  outline:2px solid var(--teal);
+  outline-offset:2px;
+  border-radius:4px;
+}
+/* Suppress default for elements that have custom focus styling via :focus-visible */
+:focus:not(:focus-visible){outline:none}
+
 </style>
 </head>
 <body>
@@ -532,10 +542,10 @@ a:hover{text-decoration:underline}
   <div class="mob-title">AI Merit Badge</div>
   <div class="mob-req" id="mob-req"></div>
 </div>
-<div class="mob-overlay"></div>
+<div class="mob-overlay" role="button" tabindex="-1" aria-label="Close navigation"></div>
 
 <!-- ═══ SIDEBAR ═══ -->
-<nav class="sidebar">
+<nav class="sidebar" aria-label="Section navigation">
  <div class="sb-head">
  <div class="sb-logo">◆ Scouting America</div>
  <div class="sb-title">AI Merit Badge<br>Counselor Guide</div>
@@ -564,13 +574,13 @@ a:hover{text-decoration:underline}
 <main class="main">
 
 <!-- ─── INTRO ─── -->
-<section class="section hero" id="intro">
+<section class="section hero" id="intro" aria-labelledby="intro-heading">
  <div class="hook">AI generated part of this session guide. Can you identify which part? You'll find out at the end.</div>
- <h1 class="hero-title">Artificial<br><em>Intelligence</em><br>Merit Badge</h1>
+ <h1 class="hero-title" id="intro-heading">Artificial<br><em>Intelligence</em><br>Merit Badge</h1>
  <p class="hero-sub">Counselor Session Guide · Scouting America · 2025–2026</p>
 
  <div class="counselor-card">
- <div class="c-avatar" style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--teal);letter-spacing:.05em;">CD</div>
+ <div class="c-avatar" aria-hidden="true" style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--teal);letter-spacing:.05em;">CD</div>
  <div>
  <div class="c-name">Christopher Daigle</div>
  <div class="c-title">AVP · AI &amp; Automation Engineering · Arch Capital Services</div>
@@ -607,9 +617,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 1: KEY CONCEPTS ─── -->
-<section class="section" id="req1">
+<section class="section" id="req1" aria-labelledby="req1-heading">
  <div class="sh-eyebrow">Requirement 1</div>
- <h2 class="sh-title">Key <em>Concepts</em></h2>
+ <h2 class="sh-title" id="req1-heading">Key <em>Concepts</em></h2>
  <div class="req-quote">Define the following terms and share the meaning of each with your counselor: <em>artificial intelligence (AI), artificial intelligence agents, automation, basic programming, bots, data, databases, digital workers, general AI, machine learning (ML), narrow AI, superintelligent AI, tasks, triggers, workflows, and variables.</em></div>
 
  <hr class="div">
@@ -652,9 +662,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 2: AI BASICS ─── -->
-<section class="section" id="req2">
+<section class="section" id="req2" aria-labelledby="req2-heading">
  <div class="sh-eyebrow">Requirement 2</div>
- <h2 class="sh-title">AI <em>Basics</em></h2>
+ <h2 class="sh-title" id="req2-heading">AI <em>Basics</em></h2>
  <div class="req-quote">Do the following and share what you learned with your counselor: (a) Identify ten examples of AI in everyday life. (b) Five examples in the workplace. (c) Five examples in education. (d) Play ten rounds of "AI or Not?" with your counselor and discuss your answers. (e) Create a timeline with five key milestones in AI development.</div>
 
  <hr class="div">
@@ -706,8 +716,8 @@ a:hover{text-decoration:underline}
  <button class="btn btn-ghost" onclick="gameAnswer(2,false)">Not AI</button>
  </div>
  <hr class="result-sep" id="rs2" style="display:none">
- <div id="gr2"></div>
- <div class="discuss-box" id="db2">
+ <div id="gr2" aria-live="polite" aria-atomic="true"></div>
+ <div class="discuss-box" id="db2" aria-live="polite">
  <div class="discuss-lbl">Counselor Discussion Prompt</div>
  <p id="dp2"></p>
  </div>
@@ -719,7 +729,7 @@ a:hover{text-decoration:underline}
  </div>
  </div>
  </div>
- <div class="game-done" id="done2">
+ <div class="game-done" id="done2" role="status">
  
  <h3>10 Rounds Complete!</h3>
  <p>Requirement 2d fulfilled. Great discussion.</p>
@@ -739,9 +749,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 3: AUTOMATION BASICS ─── -->
-<section class="section" id="req3">
+<section class="section" id="req3" aria-labelledby="req3-heading">
  <div class="sh-eyebrow">Requirement 3</div>
- <h2 class="sh-title">Automation <em>Basics</em></h2>
+ <h2 class="sh-title" id="req3-heading">Automation <em>Basics</em></h2>
  <div class="req-quote">Do the following and share what you learned with your counselor: (a) Identify ten examples of automation in everyday life. (b) Five in the workplace. (c) Five in education. (d) Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources. (e) Create a timeline with five significant milestones in automation development.</div>
 
  <hr class="div">
@@ -828,9 +838,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 4: ETHICS IN AI ─── -->
-<section class="section" id="req4">
+<section class="section" id="req4" aria-labelledby="req4-heading">
  <div class="sh-eyebrow">Requirement 4</div>
- <h2 class="sh-title">Ethics <em>in AI</em></h2>
+ <h2 class="sh-title" id="req4-heading">Ethics <em>in AI</em></h2>
  <div class="req-quote">Do the following and share what you learned with your counselor: (a) Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making. (b) Meet with your counselor, play, and discuss five rounds of the "What Would You Do?" ethical decision-making scenarios. (c) Develop your own ethical guidelines for the use of AI. (d) What is the Turing test?</div>
 
  <hr class="div">
@@ -863,7 +873,7 @@ a:hover{text-decoration:underline}
  <div class="wwyd-wrap">
  <div class="game-prog" id="prog4"></div>
  <div class="game-card" id="wwyd-card">
- <div id="wwyd-phases"></div>
+ <div id="wwyd-phases" aria-live="polite" aria-atomic="true"></div>
  <div class="game-nav">
  <span class="game-ctr" id="wc4"></span>
  <div style="display:flex;gap:8px">
@@ -873,7 +883,7 @@ a:hover{text-decoration:underline}
  </div>
  </div>
  </div>
- <div class="wwyd-done" id="wwyd-done">
+ <div class="wwyd-done" id="wwyd-done" role="status">
  
  <h3>All 5 Scenarios Complete</h3>
  <p style="color:var(--text2);font-size:13.5px">Requirement 4b fulfilled. Move to scouts sharing their ethical guidelines (4c).</p>
@@ -908,9 +918,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 5: DEEPFAKES ─── -->
-<section class="section" id="req5">
+<section class="section" id="req5" aria-labelledby="req5-heading">
  <div class="sh-eyebrow">Requirement 5</div>
- <h2 class="sh-title"><em>Deepfakes</em></h2>
+ <h2 class="sh-title" id="req5-heading"><em>Deepfakes</em></h2>
  <div class="req-quote">Do the following and share what you learned with your counselor: (a) Explain what a deepfake is and how it can affect an individual. (b) Describe what actions to take if you or someone you know is impacted by a deepfake.</div>
 
  <hr class="div">
@@ -991,9 +1001,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 6: DEVELOPING AI SKILLS ─── -->
-<section class="section" id="req6">
+<section class="section" id="req6" aria-labelledby="req6-heading">
  <div class="sh-eyebrow">Requirement 6</div>
- <h2 class="sh-title">Developing <em>AI Skills</em></h2>
+ <h2 class="sh-title" id="req6-heading">Developing <em>AI Skills</em></h2>
  <div class="req-quote">Do the following and share what you learned with your counselor: (a) Discuss the learning process for AI and its limitations. (b) Identify five methods of how to effectively communicate with AI. (c) Explain the importance of prompt engineering when using AI to create better output. (d) Demonstrate three examples of writing clear instructions for a school-related task.</div>
 
  <hr class="div">
@@ -1036,8 +1046,8 @@ a:hover{text-decoration:underline}
  <div class="pb weak"><div class="pb-lbl">&#x2715; Weak Prompt</div><div class="pt">"Make me a study guide for biology"</div></div>
  <div class="pb strong"><div class="pb-lbl">&#x2713; Strong Prompt</div><div class="pt">"Create a study guide for a 10th-grade biology exam on cellular respiration. Include: key vocabulary with definitions, a step-by-step summary of aerobic respiration, two practice questions with answers, and one common misconception to avoid. Format as a bulleted outline."</div></div>
  </div>
- <div class="pl-label">Scout writes their own improved prompt here:</div>
- <textarea class="pl-input" placeholder="Type your improved study guide prompt for a topic you're currently studying..."></textarea>
+ <div class="pl-label" id="pl-label-1">Scout writes their own improved prompt here:</div>
+ <textarea class="pl-input" aria-labelledby="pl-label-1" placeholder="Type your improved study guide prompt for a topic you're currently studying..."></textarea>
  <div class="pl-hint">Think: What subject? What grade level? What format? What's the exam covering? How long?</div>
  </div>
 
@@ -1047,8 +1057,8 @@ a:hover{text-decoration:underline}
  <div class="pb weak"><div class="pb-lbl">&#x2715; Weak Prompt</div><div class="pt">"Help me with my essay"</div></div>
  <div class="pb strong"><div class="pb-lbl">&#x2713; Strong Prompt</div><div class="pt">"I'm writing a 5-paragraph persuasive essay for 9th-grade English arguing that school start times should be later. Give me a structured outline with: a hook sentence idea, three distinct argument points with one supporting fact each, and a conclusion that calls readers to action. Do not write the essay, just the outline."</div></div>
  </div>
- <div class="pl-label">Scout writes their own improved prompt here:</div>
- <textarea class="pl-input" placeholder="Write a prompt for an essay you actually need to work on..."></textarea>
+ <div class="pl-label" id="pl-label-2">Scout writes their own improved prompt here:</div>
+ <textarea class="pl-input" aria-labelledby="pl-label-2" placeholder="Write a prompt for an essay you actually need to work on..."></textarea>
  <div class="pl-hint">Think: What's the essay about? What's your argument? What do you need, outline only, or full draft? Grade level?</div>
  </div>
 
@@ -1058,8 +1068,8 @@ a:hover{text-decoration:underline}
  <div class="pb weak"><div class="pb-lbl">&#x2715; Weak Prompt</div><div class="pt">"Explain photosynthesis"</div></div>
  <div class="pb strong"><div class="pb-lbl">&#x2713; Strong Prompt</div><div class="pt">"Explain photosynthesis to an 8th-grade student who understands basic chemistry but has never seen the formula before. Use one real-world analogy (not a factory), explain what goes in and what comes out, and highlight the one thing students most commonly get wrong. Keep it under 150 words."</div></div>
  </div>
- <div class="pl-label">Scout writes their own improved prompt here:</div>
- <textarea class="pl-input" placeholder="Choose a concept from any class you're taking right now and write a prompt to explain it..."></textarea>
+ <div class="pl-label" id="pl-label-3">Scout writes their own improved prompt here:</div>
+ <textarea class="pl-input" aria-labelledby="pl-label-3" placeholder="Choose a concept from any class you're taking right now and write a prompt to explain it..."></textarea>
  <div class="pl-hint">Think: What concept? What do you already know? What analogy might help? How detailed? How long?</div>
  </div>
  </div>
@@ -1083,9 +1093,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 7: PRACTICAL APPLICATION ─── -->
-<section class="section" id="req7">
+<section class="section" id="req7" aria-labelledby="req7-heading">
  <div class="sh-eyebrow">Requirement 7</div>
- <h2 class="sh-title">Practical <em>Application</em></h2>
+ <h2 class="sh-title" id="req7-heading">Practical <em>Application</em></h2>
  <div class="req-quote">Do ONE of the following: (a) Choose an AI project based on personal interest or community need. Develop a plan outlining the project's objectives, data requirements, and potential ethical considerations. Implement the project. Share your project and discuss the steps you followed and your experience. (b) Design a short lesson plan on AI and teach it to a patrol or group of Scouts. Include an AI-generated age-appropriate explanation, examples of AI in everyday life and the workplace, and an interactive demonstration. Share your development process and teaching experience.</div>
 
  <hr class="div">
@@ -1153,9 +1163,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── REQ 8: CAREER EXPLORATION ─── -->
-<section class="section" id="req8">
+<section class="section" id="req8" aria-labelledby="req8-heading">
  <div class="sh-eyebrow">Requirement 8</div>
- <h2 class="sh-title">Career <em>Exploration</em></h2>
+ <h2 class="sh-title" id="req8-heading">Career <em>Exploration</em></h2>
  <div class="req-quote">Do ONE of the following: (a) Identify three career opportunities using AI/automation skills. Pick one and research training, education, certification requirements, experience, expenses, employment prospects, starting salary, advancement opportunities, and career goals. Discuss what you learned and whether you might be interested in this career. (b) Interview an AI or automation professional. Learn about their day-to-day work, the challenges they face, and their vision for the future. Inquire about training, education, certification requirements, experience, and expenses associated with entering the field. Share what you learned.</div>
 
  <hr class="div">
@@ -1339,9 +1349,9 @@ a:hover{text-decoration:underline}
 </section>
 
 <!-- ─── WRAP-UP ─── -->
-<section class="section" id="wrapup">
+<section class="section" id="wrapup" aria-labelledby="wrapup-heading">
  <div class="sh-eyebrow">Session Complete</div>
- <h2 class="sh-title">Badge <em>Wrap-Up</em></h2>
+ <h2 class="sh-title" id="wrapup-heading">Badge <em>Wrap-Up</em></h2>
 
  <hr class="div">
 
@@ -1431,7 +1441,7 @@ const cards = [
 
 function buildCards(){
   const g=document.getElementById('term-grid');
-  g.innerHTML=cards.map((c,i)=>`<div class="term-chip" id="tc${i}" onclick="showTerm(${i})"><div class="chip-num">${String(i+1).padStart(2,'0')}</div><div class="chip-name">${c.term}</div></div>`).join('');
+  g.innerHTML=cards.map((c,i)=>`<div class="term-chip" id="tc${i}" role="button" tabindex="0" onclick="showTerm(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showTerm(${i})}"><div class="chip-num">${String(i+1).padStart(2,'0')}</div><div class="chip-name">${c.term}</div></div>`).join('');
 }
 let activeTermIdx=null;
 function showTerm(i){
@@ -1649,14 +1659,14 @@ function buildIvTopics(){
  const el=document.getElementById('iv-topics');
  el.innerHTML=ivTopics.map((t,i)=>`
  <div class="iv-topic">
- <div class="iv-head" id="ivh${i}" onclick="toggleIv(${i})">
+ <div class="iv-head" id="ivh${i}" role="button" tabindex="0" onclick="toggleIv(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleIv(${i})}" aria-expanded="false" aria-controls="ivb${i}">
  <div class="tn">
  <span>${t.name}</span>
  <span class="cv-badge">Covered ✓</span>
  </div>
  <span class="iv-chevron" id="ivc${i}">▼</span>
  </div>
- <div class="iv-body" id="ivb${i}">
+ <div class="iv-body" id="ivb${i}" role="region" aria-labelledby="ivh${i}">
  ${t.qs.map(q=>`<div class="iv-q">→ ${q}</div>`).join('')}
  <div class="iv-mark"><button class="btn btn-green" style="font-size:11px;padding:6px 14px" onclick="markCovered(${i},event)">Mark as Covered ✓</button></div>
  </div>
@@ -1666,9 +1676,11 @@ function buildIvTopics(){
 function toggleIv(i){
  const body=document.getElementById('ivb'+i);
  const chev=document.getElementById('ivc'+i);
+ const head=document.getElementById('ivh'+i);
  const isOpen=body.classList.contains('open');
  body.classList.toggle('open',!isOpen);
  chev.style.transform=isOpen?'':'rotate(180deg)';
+ if(head) head.setAttribute('aria-expanded',String(!isOpen));
 }
 function markCovered(i,e){
  e.stopPropagation();
@@ -1676,7 +1688,10 @@ function markCovered(i,e){
 }
 
 // ═══ CHECKLIST ═══
-function toggleChk(el){el.classList.toggle('checked')}
+function toggleChk(el){
+ el.classList.toggle('checked');
+ el.setAttribute('aria-checked',el.classList.contains('checked')?'true':'false');
+}
 
 // ═══ SIDEBAR ACTIVE STATE ═══
 function initNav(){
@@ -1721,6 +1736,20 @@ document.addEventListener('DOMContentLoaded',()=>{
    ovEl.addEventListener('touchend',function(e){e.preventDefault();_sbClose();},{passive:false});
    ovEl.addEventListener('click',function(){_sbClose();});
  }
+  /* Escape key closes the mobile sidebar */
+ document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){var sb=document.querySelector('.sidebar');if(sb&&sb.classList.contains('open')) _sbClose();}
+ });
+
+ /* Checklist items: keyboard accessible */
+ document.querySelectorAll('.chk-item').forEach(function(el){
+  el.setAttribute('role','checkbox');
+  el.setAttribute('tabindex','0');
+  el.setAttribute('aria-checked','false');
+  el.addEventListener('keydown',function(e){
+   if(e.key==='Enter'||e.key===' '){e.preventDefault();toggleChk(el);}
+  });
+ });
  /* Nav links — conditional close.
     Sidebar OPEN (mobile drawer): intercept, close drawer, then scroll to target.
     Sidebar NOT open (desktop): do nothing — href fires normally. */
