@@ -27,11 +27,11 @@ My academic highlights are:
 
 Here is my resume:
 <div style="width: 100%; max-width: 600px; margin: 0 auto;">
-    <iframe src="https://docs.google.com/viewer?url=https://christopherdaigle.github.io/assets/docs/251210.pdf&embedded=true"
+    <iframe src="https://docs.google.com/viewer?url=https://christopherdaigle.github.io/assets/docs/260928.pdf&embedded=true"
             style="width: 100%; height: 600px; border: none;">
-        <p>Your browser doesn't support iframes. <a href="/assets/docs/251210.pdf" target="_blank">Download the PDF</a> instead.</p>
+        <p>Your browser doesn't support iframes. <a href="/assets/docs/260928.pdf" target="_blank">Download the PDF</a> instead.</p>
     </iframe>
     <p style="text-align: center; margin-top: 10px;">
-        <a href="/assets/docs/251210.pdf" target="_blank">📄 View/Download Full Resume</a>
+        <a href="/assets/docs/260928.pdf" target="_blank">📄 View/Download Full Resume</a>
     </p>
 </div>
